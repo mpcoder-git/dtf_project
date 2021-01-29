@@ -1,0 +1,11 @@
+/* ================================================================ */
+/* NEWS BEGIN  													*/
+/* ================================================================ */
+.news_title { font-weight: bold; text-transform: uppercase;  font-size: 150%; }
+
+
+.news_row { margin-bottom: 50px; padding-left: 20px; }
+.news_row > div > img {max-width:100%;height:auto;}
+.news_row > img {max-width:100%;height:auto;}
+
+/* NEWS END ===================================================== */

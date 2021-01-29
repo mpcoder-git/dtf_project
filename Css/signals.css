@@ -1,0 +1,32 @@
+/* ================================================================ */
+/* SIGNALS BEGIN  													*/
+/* ================================================================ */
+
+.signals_table {
+	border-collapse:collapse;
+	border-spacing: 0px;
+}
+
+.signals_table > tbody> tr.signals_table_row {
+		background-color: #F4F4F4;/* фон четных строк */
+}
+
+.signals_table > tbody> tr >td { 
+		border: solid 1px #D3D3D3;
+		padding: 2px 5px 2px 5px;
+}
+
+.signals_table > tbody> tr:hover { 
+		background-color: #E0F0FF;
+
+}
+
+
+#signals_graphics { position:fixed; right: 150px; width: 50%; height:25%; z-index:999; display:none;}
+
+#signals_graphics img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* SIGNALS END ===================================================== */

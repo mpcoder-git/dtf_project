@@ -1,0 +1,34 @@
+/* ================================================================ */
+/* TRAINING BEGIN  													*/
+/* ================================================================ */
+
+.training { padding-bottom: 20px; font-size: 100%; }
+.training>p { text-align: center;  line-height: 1.8em; font-family: open sans,sans-serif; }
+.training>p>b { text-align: center; font-size: 120%; line-height: 1.8em; font-family: open sans,sans-serif;}
+
+.training_centeredText  { text-align: center; line-height: 1.8em; font-family: open sans,sans-serif; }
+.training_headertextblock { height: 60px; }
+
+.training_marketblock { display: block; background-color: #FF6600; color: white;}
+
+
+.training_list {   list-style-type: disc; list-style-position: outside;}
+.training_list > li { margin: 6px 0;  }
+
+.training_row { 	
+	display: flex;
+	justify-content: space-between;
+	width: 100%; 
+	min-height: 150px;  
+}
+
+
+.training_cell { 
+	display: block;
+	width: 30%; 
+	margin: 5px; 	
+	padding: 10px 0;
+	border: 8px solid rgba(237, 237, 237, 0.7);	
+}
+
+/* TRAINING END ===================================================== */

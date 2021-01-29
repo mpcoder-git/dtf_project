@@ -1,0 +1,12 @@
+/* ================================================================ */
+/* PROP OFFICE BEGIN  													*/
+/* ================================================================ */
+.propoffice_centeredText  { text-align: center; line-height: 1.8em; font-family: open sans,sans-serif; }
+
+.propoffice_list {   list-style-type: disc; list-style-position: outside;}
+.propoffice_list > li { margin: 6px 0;  }
+
+#propoffice_content { background: url(../Images/propoffice_bg.png); background-size: cover; background-position-y: center; }
+/* ================================================================ */
+/* PROP OFFICE END 													*/
+/* ================================================================ */

@@ -1,0 +1,89 @@
+/* ================================================================ */
+/* JOB BEGIN  													*/
+/* ================================================================ */
+
+.job { padding-bottom: 20px; font-size: 100%; }
+.job>p { text-align: center;  line-height: 1.8em; font-family: open sans,sans-serif; }
+.job>p>b { text-align: center; font-size: 120%; line-height: 1.8em; font-family: open sans,sans-serif;}
+
+.job_buttonGrid {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+.job_buttonElement {
+	width: 45.92%;	
+	flex: 0 0 45.92%;
+}
+
+.job_slash { height: 17px; background-color: #FF6600; display: block;}
+.jobfixedimage { height: 362px; }
+
+.jobfixedimage:after {
+		content: "";
+		display: block;
+		height: 362px;
+		width: 100%;
+		background-image: url('../Images/anketa.jpg'); 
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;				
+}
+.blockschemaGrid {
+	width: 100%;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+.blockschemaElement {
+	width: 30%; 	
+	flex: 0 0 30%;
+}
+
+.blockschema { 
+		//margin: 0 auto;			  	
+	  	background-color: #DDDDDD; 
+		border: 3px solid black; 
+		border-radius: 5px;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+		font-size: 210%;		
+}
+.blockschema-Height1 { height: 60px; }
+.blockschema-Height2 { height: 180px; }		
+
+
+.valignblock {  
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;	
+}
+				
+
+
+.blockGrid {  
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DDDDDD; 
+	border: 3px solid black; 
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	font-size: 210%;
+	text-align: center;
+}			
+		
+.blockarrow {
+	width: 70px;
+	height: 55px;		
+	display: block;	
+	margin: 0 auto;		
+}
+
+/* JOB END ===================================================== */

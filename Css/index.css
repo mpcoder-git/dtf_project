@@ -1,0 +1,179 @@
+/* ================================================================ */
+/* MAIN BEGIN  													*/
+/* ================================================================ */
+
+.posterNY { 
+	height: 750px;
+	background-repeat: no-repeat;
+	background-image: url('../Images/ny.jpg');
+	background-size: 100%;
+	background-position: 0 -40px;
+}
+.posterNY_inner {
+	position: relative; 
+	
+}
+.posterNY_smallText { 		
+	width: 455px;
+	position: absolute;
+	right: 0;
+	top: 71px;	
+	font-size:150%;
+	font-family:open sans,sans-serif;
+	letter-spacing:0.07em;
+	color:#EDEDED;
+	text-align: right;
+}
+.posterNY_bigText {	
+	width: 661px;
+	height: auto;
+	position: absolute;
+	right: 0;
+	bottom: 40px;
+	top: 167px;
+	font-size: 380%;
+	font-weight: bold; 
+	line-height: 1.1em;
+	letter-spacing:0.05em;
+	text-align: right;
+	text-shadow:rgba(0, 0, 0, 0.298039) 0px 5px 0px;	
+	/*color:#EDEDED;*/	
+	color: white; 	 
+}	
+
+.company_aboutdtf {
+	width: 100%;
+	padding: 0 0 30px 0;
+	margin:  auto;
+	font-family: open sans,sans-serif;
+	font-size: 120%;
+	text-align:center;
+	letter-spacing:0.06em;
+	word-wrap: break-word;
+	color: #605E5E;
+		
+}
+
+.company_aboutdtf  > p {  
+	margin: 10px 0px; 
+	line-height: 1.8em; 
+}
+
+.slogan { 		
+	
+	padding: 80px 0;
+	font-size:150%; 
+	font-family:open sans,sans-serif;
+	text-align:center;
+	color: white;
+	background-color: #605E5E;
+	border-bottom: 5px solid orange;		
+ }
+
+.slogan_inner > p { 
+	
+	width: 100%; 
+	letter-spacing:0.55em; 
+}
+
+.posterNYSE { height: 600px; }
+
+.posterNYSE:before {
+	height: 600px;
+	width: 100%;
+	content: "";
+	display: block;		
+	background-image: url('../Images/nyse.jpg'); 
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;				
+}
+
+.dtfpluses { 
+	padding: 0 0 30px 0;
+	background-color: white; 
+}
+
+
+
+.dtfpluses_row { 	
+	display: flex;
+	justify-content: space-between;
+	width: 100%; 
+	min-height: 150px;  
+
+}
+
+
+.dtfpluses_cell { 
+	display: inline-block;
+	width: 30%; 
+	height: 90px; 
+	margin: 10px; 	
+	padding: 30px 0;
+	border: 8px solid rgba(237, 237, 237, 0.7);	
+	
+	font-size: 80%;
+	text-align: center; 	
+	letter-spacing: 0.15em;
+	line-height: 200%;
+	color: #605E5E;
+
+
+
+}
+
+.dtfpluses_table { 
+	margin: auto; /* выравнивание по центру блока */
+	border-spacing: 30px 30px; /* Расстояние между границ */
+ }
+
+
+.dtfpluses_tablecell { 
+	width: 25.51%; 
+	height: 90px; 
+	margin: 0 20px; 
+	padding: 30px 0;
+	border: 8px solid rgba(237, 237, 237, 0.7); 
+	text-align: center; 	
+	letter-spacing: 0.2em;
+	color: #605E5E;
+	vertical-align: middle;
+}
+
+
+/* для выравнивания блока по вертикали */
+.dtfpluses_elementcell { 
+	height: 90px;
+	width: 250px;	
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+.dtfline {
+	
+	width: 100%;
+	height: 5px;
+	padding: 0 0 0 0;
+	background-color: rgba(255, 102, 0, 1);
+}
+
+
+
+.posterJapanCandles { height: 300px; }	
+
+.posterJapanCandles:before {
+		content: "";
+		display: block;
+		height: 300px;
+		width: 100%;
+		background-image: url('../Images/graph.jpg'); 
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;				
+}
+
+
+/* MAIN END ===================================================== */

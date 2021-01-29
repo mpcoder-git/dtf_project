@@ -1,0 +1,44 @@
+/* ================================================================ */
+/* FOOTER BEGIN  													*/
+/* ================================================================ */
+
+.footer { 
+  	width: 100%;  
+  	padding: 50px 0 0 0;
+	background-color: #F4690B;	
+}
+
+.footer_grid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_adress {	
+	width: 49%;	
+	font-size: 100%;
+	line-height: 1.5em;
+	color: #252525;
+	display: inline-block;
+}
+
+.footer_socialicons {		  	 
+	width: 49%;
+	display: inline-block;		
+}
+
+.footer_socialicons ul { 
+	list-style-type: none; 
+}
+.footer_socialicons ul li { 	 
+	width: 50px;
+	display: inline-block;	
+}
+
+.copyright {   	   
+	bottom: 0px; 
+	margin: 20px auto; 
+	text-align: center;
+}
+
+
+/* FOOTER END ===================================================== */

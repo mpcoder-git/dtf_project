@@ -1,0 +1,23 @@
+/* миниатюрный reset.css */
+
+body, div, span, h1, h2, h3, h4, h5, h6, p, b, a, ol, ul, blockquote, 
+form, input, select, textarea, button,
+table, tr, td,
+footer, header, hgroup, menu, nav, section, article, aside, details, figcaption, figure {
+  margin: 0;
+  padding: 0;
+  font-family: inherit; 
+  font-weight: inherit; 
+  font-style: inherit; 
+  font-size: 100%; 
+  outline: 0; 
+  border: 0;
+}
+/* сброс HTML5 display-role для старых браузеров */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ul,ol { list-style-type: none;}
+/* конец reset.css */

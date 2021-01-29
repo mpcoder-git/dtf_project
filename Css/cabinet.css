@@ -1,0 +1,43 @@
+/* ================================================================ */
+/* CABINET BEGIN  													*/
+/* ================================================================ */
+.cabinetGrid {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cabinet_menu { 
+	width: 20.41%; 
+	margin-top: 20px; 
+	flex:0 0 20.41%;
+}
+.cabinet_content { 
+	width: 75%; 
+	margin-top: 20px;
+	flex:0 0 75%;	
+}
+
+.cabinet_contentGrid {
+	margin-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.cabinetmenuitem {   
+	padding: 5px 5px 5px 5px;  
+}
+
+.cabinetmenuitem > a { 
+	text-decoration: none;
+	color: black; 
+}
+.cabinetmenuitem > a:hover { 
+	text-decoration: none;
+	color: #FF6600; 
+}
+
+.cabinetmenuitem-select { 
+	padding: 5px 5px 5px 5px; 
+	font-weight: bold; 
+}
+/* CABINET END ===================================================== */

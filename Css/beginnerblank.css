@@ -1,0 +1,12 @@
+/* ================================================================ */
+/* BEGINNER BLANK BEGIN  													*/
+/* ================================================================ */
+.beginner_blankForm { width: 61.22%; margin: 0 auto; }
+
+.beginner_blankTable > tbody > tr > td { 
+	padding: 10px 10px 10px 0;
+	font-size: 80%;
+	border-bottom: 1px solid orange;
+}
+
+/* BEGINNER BLANK END ===================================================== */

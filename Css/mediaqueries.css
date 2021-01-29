@@ -1,0 +1,173 @@
+/* адаптивность --------------------------------------------------- */
+@media screen and (min-width:871px) and (max-width:1050px) {
+	
+	body { height: 100%; font-size: medium; }
+	.innerblock { width: 96%; }
+	
+	.content { flex: 1 0 auto; }
+
+	.header_logoimage {  max-width: 80px;  }
+	
+	.posterNY { height: 55vw; }	
+	.posterNY_smallText { width: 60vw; right: 10px; top: 70px; font-size: 150%; }
+	.posterNY_bigText {	 width: 60vw; right: 10px; top: 160px;  font-size: 380%; }
+
+	.footer_socialicons ul li { width: 40px; }	 
+	.footer_socialicons ul li a img { width: 40px; }
+	.footer_adress { width: 350px;	}
+}
+
+@media screen and (min-width:651px) and (max-width:870px) {
+	
+	body { height: 100%; font-size: medium; }
+	.innerblock { width: 96%; }
+	
+	.content { flex: 1 0 auto; }
+
+	.blockschemaElement {
+		width: 40%; 	
+		flex: 0 0 40%;
+	}
+	.jobfixedimage,.jobfixedimage:after { height: 75vw; }
+	
+	
+	.header_dtftext { font-size: 270%; }
+		
+	.header_logoimage {  max-width: 60px;  }
+	.header_navmenuElement { padding: 0px 5px 0px 0px; }
+	
+	.posterNY { height: 55vw; }	
+	.posterNY_smallText { width: 60vw; right: 10px; top: 30px; }
+	.posterNY_bigText {	 width: 60vw; right: 10px; top: 70px;  font-size: 200%; }
+	
+	.company_aboutdtf { font-size: 100%; }
+	.slogan { padding: 40px 0; font-size: 100%; }	
+	
+	.posterNYSE, .posterNYSE::before { height: 66.72vw; }
+		
+	.posterJapanCandles, .posterJapanCandles:before { height: 75vw; }
+	
+	.footer_socialicons ul li { width: 30px; }	 
+	.footer_socialicons ul li a img { width: 30px; }	
+	.footer_adress { width: 300px;	}
+
+
+
+}
+
+@media screen and (min-width:561px) and (max-width:650px) {
+	
+	body { width: 100%; height: 100%; font-size: small; }
+	.innerblock { width: 96%; }	
+	.content { flex: 1 0 auto; }
+	
+	.blockschemaElement {
+		width: 40%; 	
+		flex: 0 0 40%;
+	}
+	.jobfixedimage,.jobfixedimage:after { height: 75vw; }
+	
+	
+	.header_dtftext { font-size: 250%; }
+	
+	.posterNY { height: 55vw; }	
+	.posterNY_smallText { width: 60vw; right: 10px; top: 30px; }
+	.posterNY_bigText {	 width: 60vw; right: 10px; top: 70px;  font-size: 200%; }
+	
+	.company_aboutdtf { font-size: 100% }	
+	.slogan { padding: 40px 0;  font-size: 100% }
+	.posterNYSE, .posterNYSE::before { height: 66.72vw; }
+	
+	.posterJapanCandles, .posterJapanCandles:before { height: 75vw; }
+	
+	.footer_socialicons ul li { width: 30px; }	 
+	.footer_socialicons ul li a img { width: 30px; }	
+	.footer_adress { width: 300px;	}
+	
+}
+
+@media screen and (min-width:240px) and (max-width:560px) {
+	
+	body { width: 100%; min-height: 320px; height: 100%; font-size: small; }
+	.innerblock { width: 94%; }
+	.mainbutton { padding: 1px 5px; }
+	.maintextarea { height: 11 em; width: 100%;}
+	
+	.adaptiveInput { width: 90%;}
+	
+	
+	.content { flex: 1 0 auto; }
+	.soft_floatImage { width: 90%; height: 90%;  float: none; display: block; margin: 0 auto 20px auto; }
+	.avatarImage { width: 100px; height: 100px; margin-right: 5px;}
+
+	.beginner_blankForm { width: 90%; }
+	.trader_blankForm { width: 90%; }
+	
+	.main_buttonGreen { width: 100%; }
+	.blockschemaElement {
+		width: 47%; 	
+		flex: 0 0 47%;
+	}
+	.blockschema { font-size: 120%; }
+	.blockGrid { font-size: 120%; }
+	.jobfixedimage,.jobfixedimage:after { height: 75vw; }
+	
+	.cabinetGrid { flex-direction: column; justify-content: center; }
+	.cabinet_menu, .cabinet_content {width: 100%; margin-top: 20px; flex:0 0 100%;}
+	 
+	.cabinetmenuitem { padding: 2px 5px 2px 5px;  }  
+	 
+
+		
+	.header_userarea { font-size: 130%;	padding: 0 5px;} 			
+	.header_logoblock { flex-direction: column; align-items: center; }
+	.header_logoimage {  max-width: 50px;  }
+	.header_dtftext { margin: 0;  font-size: 150%; }
+	.header_navmenuGrid { text-align: center; display: block; }	
+	.header_navmenuElement { margin: 5px 0;	font-size: 130%; }
+
+	
+
+	.posterNY { height: 55vw; }	
+	.posterNY_smallText { width: 250px; right: 10px; top: 20px; font-size: 100%; }
+	.posterNY_bigText {	 width: 250px; right: 10px; top: 65px;  font-size: 150%; }
+
+	.company_aboutdtf { font-size: 100% }	
+	.slogan { padding: 40px 0;  font-size: 100% }	
+	
+	.posterNYSE, .posterNYSE::before { height: 66.72vw; }
+	 
+	.dtfpluses_row { flex-direction: column; align-items: center; }		
+		
+	.dtfpluses_cell { 
+	width: 90%;
+	height: 20px;
+	margin: 5px;  
+	}	
+			
+	
+	.dtfnews_grid { flex-direction: column; }
+	.dtfnews_element { width: 98%; }
+
+	.posterJapanCandles, .posterJapanCandles:before { height: 75vw; }
+	
+	.feedbackform { width: 95%; }
+	
+	.forum_topicsNamecol { width: 90%; font-size: 120%; }
+	
+	.forum_message_rowBlock { padding: 5px; margin: 5px 0; }
+	.forum_message_autorCol { width: 100%; float: none; text-align: left; flex-direction: row-reverse; justify-content: flex-end; }
+	.forum_message_textCol { width: 100%; float: none; }
+	
+
+	.footer_grid { flex-direction: column; justify-content: center; }
+		
+	.footer_adress { width: 100%; padding-left: 10px;	}
+	.footer_socialicons { width: 100%; padding-left: 10px; }
+	.footer_socialicons ul li { width: 30px; }	 
+	.footer_socialicons ul li a img { width: 30px; }
+	
+	
+
+
+}

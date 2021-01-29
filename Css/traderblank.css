@@ -1,0 +1,12 @@
+/* ================================================================ */
+/* TRADER BLANK BEGIN  													*/
+/* ================================================================ */
+.trader_blankForm { width: width: 61.22%; margin: 0 auto; }
+
+.trader_blankTable > tbody > tr > td { 
+	padding: 10px 10px 10px 0;
+	font-size: 80%;
+	border-bottom: 1px solid orange;
+}
+
+/* TRADER BLANK END ===================================================== */
